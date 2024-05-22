@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
-    <img src="/Users/v/Desktop/main_210311154852.jpeg">
+    <img src="main_210311154852.jpeg">
     <header class="header">
         <h1>クラフトビールの世界へようこそ！</h1>
     </header>
@@ -19,13 +20,28 @@
     </div>
 
     <div class="introduction">
-        <div class="pilsner">ピルスナー</div>
-        <div class="paleale">ペールエール</div>
-        <div class="ipa">IPA</div>
-        <div class="stout">スタウト</div>
+        <div class="paleale">
+            <img src="img_craftbeer_q03_rcm01.png">
+        </div>
+        <h4>ペールエール</h4>
+
+        <div class="ipa">
+            <img src="img_craftbeer_q03_rcm02.png">
+        </div>
+        <h4>IPA（インディアペールエール）</h4>
+
+        <div class="sezon">
+            <img src="img_craftbeer_q03_rcm03.png">
+        </div>
+        <h4>セゾン</h4>
+
+        <div class="stout">
+            <img src="img_craftbeer_q03_rcm05.png">
+        </div>
+        <h4>黒ビール（スタウト）</h4>
     </div>
 
-    <div class="shop">
+     <div class="shop">
         <h2>オススメ商品</h2>
         <a href="https://www.beeasybrewing.com/products/debbies-pale-ale" class="shop-link">ペールエール</a>
         <a href="https://www.beeasybrewing.com/products/6-hop-hazy-ipa-hazy-ipa" class="shop-link">IPA</a>
@@ -37,10 +53,34 @@
         <a href="https://www.instagram.com/beeasybrewing/" class="instagram-link">ギャレス</a>
 
         <h2>初心者</h2>
-        <a href="jpeg.1.jpeg"></a>
+        <img src="mv_yonayonaale-set.jpeg">
+        <div class="txt">
+            <h4>よなよなエール</h4>
+        </div>
+        <img src="mv_indonoaooni-set.jpeg">
+        <div class="txt">
+            <h4>インドの青鬼</h4>
+        </div>
+        <img src="mv_suiyoubinoneko-set.jpeg">
+        <div class="txt">
+            <h4>水曜日のネコ</h4>
+        </div>
     </div>
 
-    <form></form>
+    <form>
+        <label for="name">お名前</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+        <label for="subject">件名</label>
+        <input type="text"  id="subject" name="subject" required>
+        <label for="message">メッセージ</label>
+        <input type="text" id="message"  name="message" required>
+        <input type="submit" name="submit" value="ポチッ">
+    </form>
+
+    <form action="" method=""></form>
+    
 
     <footer class="footer">
         © 2024 aromamilk 
