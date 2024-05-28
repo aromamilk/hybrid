@@ -2,3 +2,46 @@
     text-align: center;
     margin: 30px auto;
 }
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 50px;
+}
+.begginer{
+    display: flex;
+    justify-content: flex-start;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+}
+
+.item .img img{
+    width: 100%;
+    height: auto;
+}
+.shops{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.shop {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+}
+.shop .img img{
+    width: 100%;
+    height: auto;
+}
