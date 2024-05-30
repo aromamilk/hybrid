@@ -2,15 +2,13 @@
     text-align: center;
     margin: 30px auto;
 }
+.header{
+    margin: 50px auto;
+}
 .flex-container{
     display: flex;
     justify-content: space-evenly;
     margin: 0 0 50px;
-}
-.begginer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 .items {
     display: flex;
@@ -46,20 +44,51 @@
     width: 100%;
     height: auto;
 }
+.beginner{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.beer .img img{
+    width: 80%;
+}
 .contact-form{
     background: #a7e7f7;
-    padding: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    padding: 20px 60px 30px 60px; 
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 30px auto;
+    box-shadow: 0 0 8px #a7e7f7;
+}
+.contact-form h3{
+    text-align: center;
 }
 .contact-form input{
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 15px 20px;
+    margin-bottom: 35px;
     border-radius: 5px;
     width: 100%;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 8px #f7f5f5;
 }
 .contact-form label{
     margin-bottom: 5px;
     display: block;
+}
+.contact-form button{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: none;
+    background: #55b1f3;
+    width: 20%;
+    height: 35px;
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    margin: 30px;
 }
